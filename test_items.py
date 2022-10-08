@@ -11,4 +11,4 @@ def test_check_cart_button_exists(browser):
     find_basket = browser.find_element(By.CLASS_NAME, "btn-add-to-basket")
     find_basket = find_basket.text
     #тригер если кнопка есть
-    assert find_basket is None, f"Всё четко"
+    assert find_basket is None, "Всё четко"
